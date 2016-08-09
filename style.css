@@ -54,7 +54,7 @@ body {
 
 .introduction-section > p,
 .location-section > p,
-.content-foter > p {
+.content-footer > p {
     /* Typography Declarations */
     font-weight: 300;
     letter-spacing: 0.05em;
@@ -70,4 +70,14 @@ body {
 section > h1 {
     margin-top: 2em;
 }
-
+@media only screen  {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 6em;
+    }
+    .social {
+        font-size: 3em;
+    }
+}
